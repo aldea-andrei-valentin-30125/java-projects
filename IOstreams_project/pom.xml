@@ -7,7 +7,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Car Parking Access Application</name>
+    <name>IOstreams_project</name>
 
     <description>Parking application.</description>
 
@@ -26,7 +26,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- class that has the main method -->
-        <mainClass>isp.lab8.carparkaccess.CarParkingAccessApp</mainClass>
+        <mainClass>IOstreams.project.CarParkingAccessApp</mainClass>
         <!-- name appended to standard jar name to indicate shaded/executable version -->
         <shadedClassifierName>executable</shadedClassifierName>
         <junit-version>4.12</junit-version>

@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package utcn.repoviewer;
 
 import java.awt.Component;
@@ -27,10 +22,6 @@ import org.fife.ui.rsyntaxtextarea.*;
 import org.fife.ui.rtextarea.RTextScrollPane;
 import org.apache.commons.io.FilenameUtils;
 
-/**
- *
- * @author ocuibus
- */
 public class FileView extends JPanel{
     String pathToFileAbsolute;
     RSyntaxTextArea textAreaCode;
@@ -127,7 +118,5 @@ public class FileView extends JPanel{
             }   
         return isImage;    
     }
-    // student name
-    // code area
-    // thumbsup/thumbsdown buttons
+
 }

@@ -3,14 +3,9 @@ package exceptions.project;
 import java.util.List;
 
 public interface ControllerInterface {
-    /**
-     * Master key used by
-     */
+ 
     String MASTER_KEY = "MasterKeyValue";
 
-    /**
-     *
-     */
     String MASTER_TENANT_NAME = "MasterTenant";
 
     /**
@@ -25,23 +20,10 @@ public interface ControllerInterface {
      */
     DoorStatus enterPin(String pin) throws Exception;
 
-    /**
-     * Add new tenant in the system
-     * When tenant with this name already exists, {@link TenantAlreadyExistsException} will be thrown
-     *
-     * @param pin  - pin to be added in the system
-     * @param name - tenant name to be added in the system
-     * @throws Exception
-     */
+
     void addTenant(String pin, String name) throws Exception;
 
-    /**
-     * Remove existing tenant from the system
-     * When tenant with this name not found, {@link TenantNotFoundException} will be thrown
-     *
-     * @param name - tenant name to be removed
-     * @throws Exception
-     */
+
     void removeTenant(String name) throws Exception;
     
     String getStatus();

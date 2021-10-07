@@ -1,19 +1,12 @@
-/*
-* To change this license header, choose License Headers in Project Properties.
-* To change this template file, choose Tools | Templates
-* and open the template in the editor.
-*/
+
 package utcn.repoviewer;
 
 import java.io.File;
 import javax.swing.tree.DefaultTreeModel;
 
-/**
- *
- * @author ocuibus
- */
+
 public class TreePopulator {
-    //File fileRoot = new File("C:\\Users\\ocuibus\\Personale\\UTCN\\ISP\\arhiva ISP\\isp-labs-main-03-16-2021-07-14-14\\Adumitrascesei-Gabriela-30126");
+    
     final String[] allowedFileTypes = new String[] {".java", ".xml", ".jpg", ".png"};
 
     private DefaultTreeModel treeModel;
@@ -22,7 +15,7 @@ public class TreePopulator {
     }
     
     public void populate(File fileRoot){
-        FileNode rootNode = new FileNode(fileRoot); // root is not visible anyway
+        FileNode rootNode = new FileNode(fileRoot);
         createChildren(fileRoot, rootNode);
         treeModel.setRoot(rootNode);
     }

@@ -27,17 +27,17 @@ public class CarParkingAccessApp {
 //        controller.EnterCar(c7);
 //        controller.EnterCar(c8);   
 
-//          System.out.println(controller.ExitCar(c1)); 
-//          System.out.println(controller.ExitCar(c2)); 
-//          System.out.println(controller.ExitCar(c3)); 
-//          System.out.println(controller.ExitCar(c4)); 
-//          System.out.println(controller.ExitCar(c5)); 
+          System.out.println(controller.ExitCar(c1)); 
+          System.out.println(controller.ExitCar(c2)); 
+          System.out.println(controller.ExitCar(c3)); 
+          System.out.println(controller.ExitCar(c4)); 
+          System.out.println(controller.ExitCar(c5)); 
 //          System.out.println(controller.ExitCar(c6)); 
 //          System.out.println(controller.ExitCar(c7)); 
 //          System.out.println(controller.ExitCar(c8)); 
 
-        controller.writeLogRecord("C:\\Scoala\\isp-labs-main-aldea-andrei-valentin-30125\\isp-lab-8-2021-master\\docs\\CurrentparkingFolder\\logs.txt",controller.getLogs());
-        controller.writeLogRecord("C:\\Scoala\\isp-labs-main-aldea-andrei-valentin-30125\\isp-lab-8-2021-master\\docs\\CurrentparkingFolder\\logsHistory.txt",controller.getLogsHistory());
+        controller.writeLogRecord("D:\\GitRepository\\java-projects\\IOstreams_project\\docs\\CurrentparkingFolder\\logs.txt",controller.getLogs());
+        controller.writeLogRecord("D:\\GitRepository\\java-projects\\IOstreams_project\\docs\\CurrentparkingFolder\\logsHistory.txt",controller.getLogsHistory());
 
 
         System.out.println("...." + "\n" + "View Current Parked Cars:");

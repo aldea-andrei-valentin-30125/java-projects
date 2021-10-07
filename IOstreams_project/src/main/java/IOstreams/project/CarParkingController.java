@@ -25,10 +25,10 @@ public class CarParkingController {
     private List<ParkingEventRecord> historyLogs;
     
     public CarParkingController(){
-        this.readLogRecord("C:\\Scoala\\isp-labs-main-aldea-andrei-valentin-30125\\isp-lab-8-2021-master\\docs\\CurrentparkingFolder\\logs.txt");
+        this.readLogRecord("D:\\GitRepository\\java-projects\\IOstreams_project\\docs\\CurrentparkingFolder\\logs.txt");
         //logs = new ArrayList<>();
         //historyLogs = new ArrayList<>();
-        this.readLogRecordHistory("C:\\Scoala\\isp-labs-main-aldea-andrei-valentin-30125\\isp-lab-8-2021-master\\docs\\CurrentparkingFolder\\logsHistory.txt");
+        this.readLogRecordHistory("D:\\GitRepository\\java-projects\\IOstreams_project\\docs\\CurrentparkingFolder\\logsHistory.txt");
     }
     
     public boolean EnterCar(Car c){

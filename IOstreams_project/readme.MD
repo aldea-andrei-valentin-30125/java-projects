@@ -1,13 +1,7 @@
-# Lab 8 - Car Parking Access Controll System
-
-
-## Exercise 1 
 
 Implement a car access parking system. 
 
 ### Functional requirements
-
-![Exercise 1 image](docs/UseCaseDiagramParkingLot.jpg)
 
 **Enter Car Park**
 - car is identified by plate number
@@ -42,13 +36,6 @@ Implement a car access parking system.
 1. Car access details will be stored in a persistant storage on disk as files and the state is not lost when the application is restarted. 
 2. Car access details cab be stored using one of the 2 Java mechanisms: JSON obejcts, Serialization. 
 3. Minimal unit-tests should be provided to demonstrate the correct behaviour of the system.
-
-
-![Exercise 2 image](docs/SequenceDiagramParkingLot.jpg)
-
-## Exercise 2 
-
-![Exercise 2 image](docs/ex4.jpg)
 
 
 
