@@ -1,2 +1,2 @@
-# java-projects
-Aldea
+# Aldea Andrei: java-projects
+

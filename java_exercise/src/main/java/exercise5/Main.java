@@ -1,9 +1,7 @@
 package exercise5;
 
 interface Shape {
-    /**
-     * Draw a specific shape
-     */
+    
     void draw();
 }
 
@@ -36,11 +34,7 @@ class RoundedSquare implements Shape {
 }
 
 abstract class AbstractShapeFactory {
-    /**
-     * Get specific shape by type
-     * @param type - one of the values ("rectangle", "roundedRectangle", "square", "roundedSquare")
-     * @return instance of shape by desired type
-     */
+   
     abstract Shape getShape(String type);
 }
 
@@ -76,11 +70,6 @@ class ShapeFactoryProvider {
     private ShapeFactoryProvider() {
     }
 
-    /**
-     * Get an instance of {@link AbstractShapeFactory} based on <param>type</param>
-     * @param type - one of the values "normal" / "rounded"
-     * @return instance of type {@link AbstractShapeFactory}
-     */
     public static AbstractShapeFactory getShapeFactory(String type) {
         if ("normal".equals(type)) {
             return new ShapeFactory();
